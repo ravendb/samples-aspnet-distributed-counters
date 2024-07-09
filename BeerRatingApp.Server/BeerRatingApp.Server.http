@@ -1,0 +1,6 @@
+@BeerRatingApp.Server_HostAddress = http://localhost:5234
+
+GET {{BeerRatingApp.Server_HostAddress}}/beers/
+Accept: application/json
+
+###
